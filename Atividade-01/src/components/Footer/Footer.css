@@ -1,7 +1,9 @@
 .footer {
-    background-color: black;
+    background-color: rgb(53, 50, 50);
     color: white;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     bottom: 0;
     width: 100%;

@@ -6,9 +6,9 @@ import Header from './components/Header/Header'
 function App() {
   return (
     <>
-      <Header frase='Header de alguma coisa'/>
-      <Bio frase='Bio de alguma coisa' botao='Saiba Mais'/>
-      <Footer frase='Footer de alguma frase'/>
+      <Header frase='Leandro Ferraz { ... } '/>
+      <Bio frase='🌱 Futuro Desenvolvedor FullStack' botao='Saiba Mais'/>
+      <Footer frase='© 2022 Leandro Ferraz'/>
     </>
   )
 }

@@ -2,10 +2,10 @@ import './Bio.css'
 
 function Bio (props) {
     return (
-        <div className='Bio'>
+        <main className='bio'>
             <h2>{props.frase}</h2>
             <button>{props.botao}</button>
-        </div>
+        </main>
 
     )
 }

@@ -1,3 +1,12 @@
-.Bio {
+.bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
+    height: 500px;
+}
+
+.bio button {
+    border-radius: 5px;
 }

@@ -2,7 +2,9 @@ import './Footer.css'
 
 function Footer (props) {
     return (
-        <p className='footer'>{props.frase}</p>
+        <footer className="footer">
+            <p>{props.frase}</p>
+        </footer>
     )
 }
 
