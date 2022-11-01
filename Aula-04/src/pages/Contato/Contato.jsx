@@ -7,6 +7,18 @@ const Contato = () => {
         nome: "Leandro",
         idade: 27
     }
+    
+    const contato2 = {
+        id: 2,
+        nome: "Kamylla Silva",
+        idade: 19
+    }
+
+    const contato3 = {
+        id: 3,
+        nome: "Giovanna Ferraz",
+        idade: 7
+    }
 
     return (
         <>
@@ -22,8 +34,8 @@ const Contato = () => {
 
                 <ol>
                     <li><Link to={`/contato/${contato.id}`} state={{data: contato}}>Leandro Ferraz</Link></li>
-                    <li><Link to={`/contato/${contato.id}`}>Kamylla Silva</Link></li>
-                    <li><Link to={`/contato/${contato.id}`}>Giovanna Ferraz</Link></li>
+                    <li><Link to={`/contato/${contato.id}`} state={{data: contato2}}>Kamylla Silva</Link></li>
+                    <li><Link to={`/contato/${contato.id}`} state={{data: contato3}}>Giovanna Ferraz</Link></li>
                 </ol>
         </>
     )

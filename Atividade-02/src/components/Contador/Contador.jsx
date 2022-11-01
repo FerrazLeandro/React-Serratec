@@ -15,13 +15,13 @@ function Contador() {
       if ((metaDiaria > 0)) {
         setContador(prevState => prevState + 1)
         setTotal(prevState => prevState + mls)
-        setHorario(horario + (parseInt(contador) + 1) + ' - ' + new Date().toLocaleTimeString() + ' ✔ ')
+        setHorario(horario + (parseInt(contador) + 1) + ' - ' + new Date().toLocaleString() + ' ✔ ')
       } else {
         setMensagem("A quantidade de ML deve ser maior que 0")
       }
 
       if ((total + mls) >= metaDiaria) {
-        setMensagem("Parabéns, você atingiu sua meta diária de consumo!")
+        setMensagem("Parabéns, você atingiu sua meta diária!")
       }
     } else {
       setMensagem("A quantidade de ML deve ser maior que 0")
