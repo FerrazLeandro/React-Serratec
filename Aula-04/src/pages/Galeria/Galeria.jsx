@@ -3,12 +3,17 @@ import { Link } from "react-router-dom"
 const Galeria = () => {
     return (
         <>
-            <Link to='/' className="link">Home</Link>
-            <Link to='/galeria' className="link">Galeria</Link>
-            <Link to='/contato' className="link">Contato</Link>
-            <h1>Galeria :B</h1>
+            <ul>
+                <li>
+                    <Link to='/'>🏠 Home</Link>
+                </li>
+                <li>
+                    <Link to='/contato'>📞 Contato</Link>
+                </li>
+            </ul>
+                <h1>📸 Galeria</h1>
         </>
     )
-    }
+}
 
-    export default Galeria
+export default Galeria

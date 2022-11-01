@@ -3,10 +3,18 @@ import { Link } from "react-router-dom"
 const Erro = () => {
     return (
         <>
-            <Link to='/' className="link">Home</Link>
-            <Link to='/galeria' className="link">Galeria</Link>
-            <Link to='/contato' className="link">Contato</Link>
-            <h1>Erro 404 :S</h1>
+        <ul>
+            <li>
+                <Link to='/'>🏠 Home</Link>
+            </li>
+            <li>
+                <Link to='/galeria'>📸 Galeria</Link>
+            </li>
+            <li>
+                <Link to='/contato'>📞 Contato</Link>
+            </li>
+        </ul>
+            <h1>Erro 404 ❌</h1>
             <p>Página não encontrada</p>
         </>
     )

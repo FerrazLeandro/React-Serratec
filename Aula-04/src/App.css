@@ -40,6 +40,7 @@
   color: #888;
 }
 
-.link {
-  margin: 8px;
+ul {
+  margin: 48px;
+  text-decoration: none;
 }
