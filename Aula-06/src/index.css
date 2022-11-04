@@ -73,4 +73,11 @@ img {
   display: block;
   width: 50vw;
   height: 50vh;
+  border-radius: 20px;
+}
+
+main {
+  border: solid 3px rgb(14, 165, 52);
+  border-radius: 20px;
+  padding: 30px;
 }
