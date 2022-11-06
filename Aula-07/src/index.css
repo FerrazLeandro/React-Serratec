@@ -8,11 +8,11 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
-
+  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  -webkit-text-size-adjust: 100%;
 }
 
 a {
@@ -47,7 +47,6 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-  margin: 10px;
 }
 button:hover {
   border-color: #646cff;
@@ -68,17 +67,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-
-img {
-  display: block;
-  width: 50vw;
-  height: 50vh;
-  border-radius: 20px;
-}
-
-main {
-  border: solid 5px rgb(97, 14, 165);
-  border-radius: 20px;
-  padding: 30px;
 }

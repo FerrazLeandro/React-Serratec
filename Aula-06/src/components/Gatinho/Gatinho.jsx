@@ -4,7 +4,7 @@ import api from "../../services/api";
 function Gatinho() {
     const [cat, setCat] = useState(0)
 
-    
+
     //Só é executado após o componente ser renderizado
     useEffect(() => {
         getCat();
@@ -25,7 +25,7 @@ function Gatinho() {
                 <>
                     <img src={cat[0].url} alt="gatinho" />
                     <p>{cat.length > 0 && cat[0].url}</p>
-                    <a href={cat[0].url}>Link</a>
+                    <a href={cat[0].url}>Link da imagem</a>
                 </>
             ) : (
                 <h1>Sem Imagem no momento</h1>
